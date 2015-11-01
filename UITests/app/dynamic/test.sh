@@ -1,15 +1,15 @@
 ls -a
 git status -sb
-git checkout -b param
-git checkout -b param origin param
-git checkout -b init
-git checkout -b init origin init
-git checkout -b array
-git checkout -b array origin array
-git checkout -b index
-git checkout -b index origin index
-git checkout -b config
-git checkout -b config origin config
+#git checkout -b param
+#git checkout -b param origin param
+#git checkout -b init
+#git checkout -b init origin init
+#git checkout -b array
+#git checkout -b array origin array
+#git checkout -b index
+#git checkout -b index origin index
+#git checkout -b config
+#git checkout -b config origin config
 #git checkout -b debugger
 #git checkout -b debugger origin debugger
 #git checkout -b debug
@@ -18,34 +18,34 @@ git checkout -b config origin config
 #git checkout -b ArcanaMagus-debugger origin ArcanaMagus-debugger
 #git checkout -b readme
 #git checkout -b readme origin readme
-git checkout -b userAuth.cpl
-git checkout -b userAuth.cpl origin userAuth.cpl
-git checkout -b userAuth.api
-git checkout -b userAuth.api origin userAuth.api
-git checkout -b userAuth.app
-git checkout -b userAUth.app origin userAauth.app
-git checkout -b api
-git checkout -b api origin api
-git checkout -b build
-git checkout -b build origin build
-git checkout -b binary
-git checkout -b binary orgin binary
-git checkout -b project
-git checkout -b project origin project
-git checkout -b package
-git checkout -b pacakge origin package
-git checkout -b userAuth
-git checkout -b userAuth origin userAuth
-git checkout -b userAuth.UITests
-git checkout -b userAuth.UITests origin userAuth.UITests
+#git checkout -b userAuth.cpl
+#git checkout -b userAuth.cpl origin userAuth.cpl
+#git checkout -b userAuth.api
+#git checkout -b userAuth.api origin userAuth.api
+#git checkout -b userAuth.app
+#git checkout -b userAUth.app origin userAauth.app
+#git checkout -b api
+#git checkout -b api origin api
+#git checkout -b build
+#git checkout -b build origin build
+#git checkout -b binary
+#git checkout -b binary orgin binary
+#git checkout -b project
+#git checkout -b project origin project
+#git checkout -b package
+#git checkout -b pacakge origin package
+#git checkout -b userAuth
+#git checkout -b userAuth origin userAuth
+#git checkout -b userAuth.UITests
+#git checkout -b userAuth.UITests origin userAuth.UITests
 #git checkout -b Readme
 #git checkout -b Readme origin Readme
 #git checkout -b Readme-1
 #git checkout -b origin Readme-1
-git checkout -b xamarin-build
-git checkout -b xamarin-build origin xamarin-build
-git checkout -b master
-git checkout -b master origin master
+#git checkout -b xamarin-build
+#git checkout -b xamarin-build origin xamarin-build
+#git checkout -b master
+#git checkout -b master origin master
 
 git stage app/dynamic/test.sh
 git add app/dynamic/test.sh
@@ -138,11 +138,11 @@ git status -sb
 git checkout master
 git pull https://github.com/ArcanaMagus/userAuth.cpl.git
 #git merge --no-ff
-dos2unix test.shtest.sh
+dos2unix app/dynamic/test.sh
 for {
 app/dynamic/test.sh= var obj
 if (obj is unix) {
-unix2mac test.shtest.sh
+unix2mac app/dynamic/test.sh
 }
 else (obj is mac) {
 null;
