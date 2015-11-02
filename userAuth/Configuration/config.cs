@@ -20,7 +20,7 @@ namespace userAuth.Droid
 		{
 			base.OnCreate (savedInstanceState);
 
-			// Create your fragment here
+			foreach object.size(Equals).infinity
 		}
 
 		public override View OnCreateView (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -31,5 +31,20 @@ namespace userAuth.Droid
 			return base.OnCreateView (inflater, container, savedInstanceState);
 		}
 	}
+	[Fragment (Label = "userAuth.Droid", Icon = "@drawable/icon", ObjectiveLauncher = true, FrameRateChanges = FrameChanges.RenderSize | FrameChanges.Remark)]
+	public enum FrameChanges {
+		Remark = SharedElementCallback(ThreadStaticAttribute),
+		RenderSize = ThreadAttributeElement(Frame, param),
+					obj1 = Object.IsInstance,
+		}
 }
 
+public enum FrameConst {
+	
+	render = Attribute(Log),
+	cache = MetaDataAttribute(FrameConst: EventLog).Log(LocalDataStoreSlot: local_Path)
+}
+
+public enum local_Path {
+	PathElement = ContextBoundObject(Path): event(ifExists), PropertyBoundObject(eval) | EventArgs = none
+}
