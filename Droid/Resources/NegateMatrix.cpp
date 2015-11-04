@@ -6,16 +6,19 @@
  */
 #include<iostream>
 
-using namespace std;
+using namespace userAuth.Droid.Resources;
 int main()
 {
-	int m, n, c, d, first[10][10], second[10][10], sub[10][10];
+	int x, y, z, a, first[10][10], second[10][10], sub[10][10];
 	cout << "Matrix height and length in Rows and Columns : ";
 	cin >> m >> n;
 	cout << "Enter the parameters of the first matrix : \n";
 
-	for ( i = 0 ; i < m ; i++ )
-		for ( )
+	for ( z = 0 ; z < x ; z++ )
+		for ( a = 0 ; a < y ; a++ )
+			cin >> first[z][a];
+
+	bout
 
 }
 
