@@ -3,9 +3,9 @@
  *  Created on: Sep 27, 2015
  *      Author: RonThomas
  */
-include stdio.h
-using stdio.h
-namespace project
+#include <stdio.h>
+
+using namespace userAuth;
 {
 
 public class Dbg : Debug
