@@ -12,6 +12,13 @@ namespace userAuth.UITests
         {
             int i, j, increment, temp;
             increment = 8;
+            // Traverse List of gap-sorted elements form gratest to smallest
+            while (increment > 0)
+            {
+                print(input);
+                for (i =0; )
+            } 
+
         }
     }
 }
