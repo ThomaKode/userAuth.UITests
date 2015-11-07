@@ -47,12 +47,12 @@ git status -sb
 #git checkout -b master
 #git checkout -b master origin master
 
-git stage app/dynamic/test.sh
-git add app/dynamic/test.sh
-cd app/dynamic/
+git stage C:/Users/RonThomas/Source/Repos/userAuthenticate/userAuth/UITests/app/dynamic/test.sh
+git add C:/Users/RonThomas/Source/Repos/userAuthenticate/userAuth/UITests/app/dynamic/test.sh
+cd C:/Users/RonThomas/Source/Repos/userAuthenticate/userAuth/UITests/app/dynamic/
 .\test.sh
-cd C:/Users/RonThomas/Source/Repos/userAuthenticate/userAuth/UITests/
-git commit -m "Add newfile app/dynamic/test.sh"
+cd C:/Users/RonThomas/Source/Repos/userAuthenticate/userAuth/UITests/app/dynamic/
+git commit -m "Modify file C:/Users/RonThomas/Source/Repos/userAuthenticate/userAuth/UITests/app/dynamic/test.sh"
 git push origin HEAD:master
 git pull origin master
 sleep 10
@@ -135,14 +135,14 @@ git push origin HEAD:Readme-1
 git pull origin Readme-1
 git diff -b
 git status -sb
-git checkout master
-git pull https://github.com/ArcanaMagus/userAuth.cpl.git
+git checkout userAuth.cpl
+git pull https://github.com/ArcanaMagus/userAuth.UITests.git
 #git merge --no-ff
-dos2unix app/dynamic/test.sh
+dos2unix C:/Users/RonThomas/Source/Repos/userAuthenticate/userAuth/UITests/app/dynamic/test.sh
 for {
-app/dynamic/test.sh= var obj
+C:/Users/RonThomas/Source/Repos/userAuthenticate/userAuth/UITests/app/dynamic/test.sh = var obj
 if (obj is unix) {
-unix2mac app/dynamic/test.sh
+unix2mac C:/Users/RonThomas/Source/Repos/userAuthenticate/userAuth/UITests/app/dynamic/test.sh
 }
 else (obj is mac) {
 null;
@@ -173,7 +173,7 @@ def: widget
 		 }
 }
 , else  {
-bash  - start app/dynamic/test.sh
+bash  - start C:/Users/RonThomas/Source/Repos/userAuthenticate/userAuth/UITests/app/dynamic/test.sh
 }
 #condition
 if (diff >= 1) {
@@ -207,3 +207,4 @@ case: "init":  return init(err:location[X((0), X(1), Y(0), Z(0))])
 case: "err": return err(init: location[Y((1), Y(0), Z(0))])
 case: "WFSO": return WFSO( console.print(stat) + dat.location() void
 	}
+#	git out
