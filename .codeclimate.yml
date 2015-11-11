@@ -2,4 +2,12 @@ languages:
   C: true
   C++: true
   JavaScript: true
+  XML: true
+  Python: true
+  C#: true
+  HTML: true
+  shell script: true
+  CSS: true
+  Java: true
+  
   
