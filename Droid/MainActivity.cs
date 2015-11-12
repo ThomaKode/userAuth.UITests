@@ -38,6 +38,17 @@ namespace userAuth.FrameAnchor
             LoadDevice(new device());
         }
     }
-}
+    namespace userAuth.Droid.Shell
+    {
+        class ShellSortInit
+        {
+            static void ShellSort(int[] input, int array_size)
+            {
+                int i, j, increment, temp;
+                increment = 4;
 
+            }
+        }
+    }
+} 
 
