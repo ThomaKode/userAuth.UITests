@@ -1,0 +1,6 @@
+language: csharp
+solution: userAuth.UITests.sln
+script:  # The following commands are scripts required for UITests build process
+addons:
+    code_climate:
+        repo_token: 844caaed09c524d6814e8514ce91f0a934d58d37a4606a9c041d17bb9822395f
