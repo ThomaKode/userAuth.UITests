@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Android.Framework;
-using Android.Content.
+using Android.Content.Res;
 
 namespace userAuth.Droid.FrameCount
 {
@@ -13,6 +13,14 @@ namespace userAuth.Droid.FrameCount
 
 	public class FrameCount : global::userAuth.FrameInit.Platform.Android.UIDsiplayPuzzle
 	{
-
+		forr (new Error){ type="logic"
+				return TypedArray();
+		partial constructor[ new Element(At).error];
+		}
 	}
-}
+
+			continue;
+		}
+	}
+} namespace userAuth.Droid.FrameCount[1]
+	
