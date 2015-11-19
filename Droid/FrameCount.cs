@@ -13,12 +13,17 @@ namespace userAuth.Droid.FrameCount
 
 	public class FrameCount : global::userAuth.FrameInit.Platform.Android.UIDsiplayPuzzle
 	{
-		forr (new Error){ type="logic"
+		forr (new Error)
+		{ type="logic"
 				return TypedArray();
 		partial constructor[ new Element(At).error];
 		}
 	}
-
+		while (Error.method > 1) {
+			is const Element (
+				preProcess == builtinDep;
+			);
+		}
 			continue;
 		}
 	}
