@@ -28,4 +28,27 @@ namespace userAuth.Droid.FrameCount
 		}
 	}
 } namespace userAuth.Droid.FrameCount[1]
-	
+private extern class res_struct_node () 
+{
+	private enum StageAt()
+	{
+		const[1]
+			preProcess.eval(struct proc[1]
+			{
+				case: Error=null;
+				return (Stage).inradians 
+			});
+		const[2];
+			preProcess.eval(struct proc[2]
+			{
+				case: Error!=null;
+				return (Stage).inrafdians
+			});
+		const[3];
+			preProcess.eval(struct proc[3]
+			{
+				case: Error=value;
+				return (Stage).inradians
+			});
+	}
+}	
