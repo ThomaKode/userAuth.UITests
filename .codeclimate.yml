@@ -4,10 +4,13 @@ languages:
   JavaScript: true
   XML: true
   Python: true
-  C#: true
+  csharp: true
   HTML: true
   shell script: true
   CSS: true
   Java: true
+    solutions:
+    UITests\userAuth.UITests.sln
+    
   
   
