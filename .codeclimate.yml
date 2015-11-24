@@ -11,6 +11,6 @@ languages:
   Java: true
     solutions:
     UITests\userAuth.UITests.sln
-    
+    Droid\userAuth.Droid.sln
   
   
