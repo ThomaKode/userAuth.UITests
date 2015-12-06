@@ -1,5 +1,11 @@
-language: csharp
-solution: userAuth.UITests.sln
+languages: 
+ - csharp
+ - c++
+ - javascript
+ - xml
+solutions:
+ - UITests/userAuth.UITests.sln
+ - Droid/userAuth.UITests.Droid.sln
 script:  # The following commands are scripts required for UITests build process
 addons:
     code_climate:
