@@ -74,13 +74,19 @@ namespace userAuth.UITests
 						sbyte: 'x'
 						, if (const: Meta::eval.Operand): <= Value
 							var Operand = System.ValueType( GetType"boolean or vector" )
-							
+							var limit = System.Count(Maximum)
 							for (int i =0; i < 100; i++) {
 								GetSystem.type(): 'Attribute';
+								console.print(MessageBox: UI);
+								_in_ ConsoleColor = builtin(
+									,'UI' + frmstr
+									, create.documentElement(at[i])
+									, node.async(limit)
+									);
 							}
 							return (System.userAuth(frame[1])_AppDomain ( :	Int32 => .Tests_AppDomain (eval=true))			
 								}
-
+						return(sbyte[x])
 				}
 
 }
